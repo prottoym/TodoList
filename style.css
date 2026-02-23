@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #6aadff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  width: 480px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 41px;
+  color: #000000c0;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#todoList {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 4px;
+  gap: 12px;
+}
+
+.todo-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #4caf87;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.todo-item label {
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  flex: 1;
+}
+
+.todo-item.done label {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.todo-item .actions {
+  display: none;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.todo-item:hover .actions {
+  display: flex;
+}
+
+.todo-item .actions span {
+  cursor: pointer;
+}
+
+.todo-item .actions .undone:hover {
+  color: #f0a500;
+}
+
+.todo-item .actions .delete:hover {
+  color: #e05555;
+}
+
+.input-row {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px 14px;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.input-row input::placeholder {
+  color: #bbb;
+}
+
+.input-row button {
+  background: #bbb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.input-row button:hover {
+  background: #9e3704;
+}
+
+.email{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
