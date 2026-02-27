@@ -41,8 +41,12 @@ This project allows users to add, complete, undo, and delete tasks easily.
 
 > Add your screenshots inside an `images` folder and update the file names below.
 
-![Main UI](images/screenshot1.png)
-![Task Example](images/screenshot2.png)
+![Main UI]
+<img width="797" height="567" alt="image" src="https://github.com/user-attachments/assets/20d57a01-7a75-4e43-861d-6c4d98e26a2b" />
+
+![Task Example]
+<img width="743" height="515" alt="image" src="https://github.com/user-attachments/assets/b971e696-beb9-4690-8353-20891fec3666" />
+
 
 ---
 
@@ -53,11 +57,6 @@ This project allows users to add, complete, undo, and delete tasks easily.
 - JavaScript (Vanilla JS)
 
 ---
-
-## 📂 Project Structure
-)
-![Task Example](images/screenshot2.png)
-
 ---
 
 ## 🛠️ Technologies Used
@@ -74,5 +73,3 @@ This project allows users to add, complete, undo, and delete tasks easily.
 ## Live
 
 https://prottoym.github.io/TodoList/
-
-## 📂 Project Structure
